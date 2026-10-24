@@ -1,6 +1,5 @@
 .vscode/**
 .github/**
 .gitignore
-images/**
 *.vsix
 *.zip
