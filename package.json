@@ -1,0 +1,60 @@
+{
+  "name": "lunar-moon",
+  "displayName": "Lunar Moon",
+  "description": "A moonlit dark theme for VS Code with soft rose, aqua, mint and lavender syntax colors. Includes Bright and Warm variants.",
+  "version": "0.0.1",
+  "publisher": "zso-Rose",
+  "author": {
+    "name": "zso"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solzso/lunar-moon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solzso/lunar-moon/issues"
+  },
+  "homepage": "https://github.com/solzso/lunar-moon#readme",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "dark theme",
+    "moon",
+    "lunar",
+    "indigo",
+    "purple",
+    "pink"
+  ],
+  "galleryBanner": {
+    "color": "#1E1C31",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lunar Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-moon-color-theme.json"
+      },
+      {
+        "label": "Lunar Moon Bright",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-moon-bright-color-theme.json"
+      },
+      {
+        "label": "Lunar Moon Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lunar-moon-warm-color-theme.json"
+      }
+    ]
+  }
+}
