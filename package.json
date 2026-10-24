@@ -8,7 +8,7 @@
     "name": "zso"
   },
   "license": "MIT",
-  "icon": "icon.png",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/solzso/lunar-moon.git"
